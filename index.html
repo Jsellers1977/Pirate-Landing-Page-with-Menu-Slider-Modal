@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Pirate Landing Page with Menu Slider + Modal</title>
+</head>
+
+<body>
+  <nav>
+    <div class="logo">
+      <img src="images/pirate-min.png" alt="pirate user" />
+    </div>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Portfolio</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <button id="toggle" class="toggle">
+      <i class="fa fa-bars fa-2x"></i>
+    </button>
+
+    <h1>Pirate Landing Page with Menu Slider + Modal</h1>
+
+    <p>
+      Rope's end plunder brigantine mizzenmast chantey pressgang swab squiffy haul wind boom.
+    </p>
+
+    <button class="cta-btn" id="open">Sign Up</button>
+  </header>
+
+  <div class="container">
+    <h2>What is this pirate landing page about?</h2>
+    <p>
+      Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm.
+      Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl.
+      Swab barque interloper chantey doubloon starboard grog black jack gangway rutters.
+    </p>
+    <p>
+      Schooner tackle mizzen hornswaggle bilge rat topsail yawl pink hang the jib league.
+      Cutlass rutters case shot trysail matey prow hardtack gibbet belay swab. Carouser port
+      bucko Privateer spyglass chantey walk the plank Cat o'nine tails Gold Road aye.
+    </p>
+
+    <h2>Yar, Tell Me More</h2>
+
+    <p>
+      Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside
+      cable strike colors. Bring a spring upon her cable holystone blow the man down
+      spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay
+      yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.
+    </p>
+
+    <h2>Benefits</h2>
+    <ul>
+      <li>The Pirate Life</li>
+      <li>Pirate Booty</li>
+      <li>Davey Jones Locker</li>
+    </ul>
+
+    <p>
+      Fluke quarter jury mast lugger parley Jack Ketch league to go on account gun transom.
+      Davy Jones' Locker black jack loaded to the gunwalls swing the lead cable draught overhaul
+      spanker lugsail hang the jib. Clap of thunder lookout Yellow Jack aye squiffy clipper Sea
+      Legs hearties Jack Ketch Plate Fleet.
+    </p>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal-container" id="modal">
+    <div class="modal">
+      <button class="close-btn" id="close">
+        <i class="fa fa-times"></i>
+      </button>
+      <div class="modal-header">
+        <h3>Sign Up</h3>
+      </div>
+      <div class="modal-content">
+        <p>Register with us to get offers, support and more</p>
+        <form class="modal-form">
+          <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter Name" class="form-input" />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter Email" class="form-input" />
+          </div>
+          <div>
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter Password" class="form-input" />
+          </div>
+          <div>
+            <label for="password2">Confirm Password</label>
+            <input type="password" id="password2" placeholder="Confirm Password" class="form-input" />
+          </div>
+          <input type="submit" value="Submit" class="submit-btn" />
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
